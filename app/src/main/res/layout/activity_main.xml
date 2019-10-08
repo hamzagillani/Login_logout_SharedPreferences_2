@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark">
+
+
+
+    <EditText
+        android:id="@+id/et_name_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/et_email_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="5dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@android:color/black"/>
+
+
+
+    <EditText
+        android:id="@+id/et_mobileNumber_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:layout_marginTop="5dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/bt_save_MA_id"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        />
+
+
+
+
+
+</LinearLayout>
